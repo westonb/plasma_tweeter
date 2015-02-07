@@ -529,17 +529,6 @@ $EndComp
 Text GLabel 1900 3050 0    60   Input ~ 0
 reset
 $Comp
-L GND #PWR016
-U 1 1 54BB31CD
-P 8200 6200
-F 0 "#PWR016" H 8200 6200 30  0001 C CNN
-F 1 "GND" H 8200 6130 30  0001 C CNN
-F 2 "" H 8200 6200 60  0000 C CNN
-F 3 "" H 8200 6200 60  0000 C CNN
-	1    8200 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L +12V #PWR017
 U 1 1 54BB3568
 P 5850 2200
@@ -1027,21 +1016,6 @@ F 3 "" H 10500 6000 60  0000 C CNN
 $EndComp
 Text GLabel 4150 2150 2    60   Input ~ 0
 CURRENT_ADC
-$Comp
-L R R8
-U 1 1 54BB305D
-P 8200 5900
-F 0 "R8" V 8280 5900 40  0000 C CNN
-F 1 "0" V 8207 5901 40  0000 C CNN
-F 2 "wbraun_library:SMD-0805" V 8130 5900 30  0001 C CNN
-F 3 "" H 8200 5900 30  0000 C CNN
-	1    8200 5900
-	1    0    0    -1  
-$EndComp
-Text GLabel 8200 5600 1    60   Input ~ 0
-BOOT0
-Text GLabel 1950 3200 0    60   Input ~ 0
-BOOT0
 Text GLabel 9950 3700 0    60   Input ~ 0
 CURRENT_ADC
 $Comp
@@ -1641,10 +1615,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 3150 2450 3150
 Wire Wire Line
-	8200 5600 8200 5650
-Wire Wire Line
-	8200 6150 8200 6200
-Wire Wire Line
 	6300 2250 6450 2250
 Connection ~ 6450 2500
 Wire Wire Line
@@ -1965,9 +1935,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 3300 1550 3300
 Wire Wire Line
-	2050 3150 2050 3200
-Wire Wire Line
-	2050 3200 1950 3200
+	2050 3150 2050 3250
 Wire Wire Line
 	2250 3500 2300 3500
 Wire Wire Line
@@ -2327,4 +2295,15 @@ F 3 "" H 2650 1100 60  0000 C CNN
 $EndComp
 Connection ~ 2400 900 
 Connection ~ 2400 1300
+$Comp
+L GND #PWR064
+U 1 1 54D599F9
+P 2050 3250
+F 0 "#PWR064" H 2050 3250 30  0001 C CNN
+F 1 "GND" H 2050 3180 30  0001 C CNN
+F 2 "" H 2050 3250 60  0000 C CNN
+F 3 "" H 2050 3250 60  0000 C CNN
+	1    2050 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

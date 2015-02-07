@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-23 BZR 5300)-product   date = Fri 06 Feb 2015 09:43:22 PM EST
+Cmp-Mod V01 Created by Cvpcb (2014-11-23 BZR 5300)-product   date = Fri 06 Feb 2015 11:30:22 PM EST
 
 BeginCmp
 TimeStamp = /54BAEE1B;
@@ -389,13 +389,6 @@ BeginCmp
 TimeStamp = /54BAE6E4;
 Reference = R7;
 ValeurCmp = 4.7;
-IdModule  = wbraun_library:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54BB305D;
-Reference = R8;
-ValeurCmp = 0;
 IdModule  = wbraun_library:SMD-0805;
 EndCmp
 
