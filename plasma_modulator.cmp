@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-23 BZR 5300)-product   date = Fri 06 Feb 2015 06:35:22 PM EST
+Cmp-Mod V01 Created by Cvpcb (2014-11-23 BZR 5300)-product   date = Fri 06 Feb 2015 09:43:22 PM EST
 
 BeginCmp
 TimeStamp = /54BAEE1B;
@@ -227,6 +227,13 @@ EndCmp
 BeginCmp
 TimeStamp = /54D5731E;
 Reference = C33;
+ValeurCmp = 0.1uF;
+IdModule  = wbraun_library:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D5A879;
+Reference = C34;
 ValeurCmp = 0.1uF;
 IdModule  = wbraun_library:SMD-0805;
 EndCmp
@@ -501,7 +508,7 @@ BeginCmp
 TimeStamp = /54B6FFFB;
 Reference = U1;
 ValeurCmp = LD1117S33TR;
-IdModule  = SMD_Packages:SOT-223;
+IdModule  = wbraun_library:SOT-223;
 EndCmp
 
 BeginCmp
@@ -564,7 +571,7 @@ BeginCmp
 TimeStamp = /54BB23FC;
 Reference = X1;
 ValeurCmp = 13.56MHz;
-IdModule  = Crystals:Crystal_HC49-SD_SMD;
+IdModule  = wbraun_library:4-SMD;
 EndCmp
 
 EndListe
