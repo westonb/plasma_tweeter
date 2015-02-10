@@ -2547,7 +2547,7 @@
   (gr_arc (start 138 56) (end 138 51) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 48 56) (end 43 56.5) (angle 90) (layer Edge.Cuts) (width 0.1))
 
-  (segment (start 67.905 63.8) (end 67.905 65.845) (width 0.4064) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 67.905 63.8) (end 67.905 65.845) (width 0.4064) (layer F.Cu) (net 1))
   (segment (start 67.905 65.845) (end 66.5 67.25) (width 0.4064) (layer F.Cu) (net 1) (tstamp 54D8FB60))
   (segment (start 66.5 67.25) (end 63 67.25) (width 0.4064) (layer F.Cu) (net 1) (tstamp 54D8FB61))
   (segment (start 63 67.25) (end 62 68.25) (width 0.4064) (layer F.Cu) (net 1) (tstamp 54D8FB62))
